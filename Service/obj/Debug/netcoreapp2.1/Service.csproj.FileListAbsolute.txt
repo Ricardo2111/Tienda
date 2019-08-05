@@ -7,3 +7,8 @@ C:\Users\Ricar\Source\Repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.Assem
 C:\Users\Ricar\Source\Repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.AssemblyInfo.cs
 C:\Users\Ricar\Source\Repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.dll
 C:\Users\Ricar\Source\Repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.pdb
+C:\Users\Ricar\source\repos\Tienda\Service\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\Ricar\source\repos\Tienda\Service\bin\Debug\netcoreapp2.1\Persistence.dll
+C:\Users\Ricar\source\repos\Tienda\Service\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\Ricar\source\repos\Tienda\Service\bin\Debug\netcoreapp2.1\Persistence.pdb
+C:\Users\Ricar\source\repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.csproj.CopyComplete

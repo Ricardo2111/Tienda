@@ -8,11 +8,11 @@ namespace Service
 
     public interface IGamesService
     {
-        IEnumerable<Games> GetAll(Games model);
+        IEnumerable<Games> GetAll();
         bool Add(Games modal);
         bool Update(Games model);
         bool Delete(int Id);
-
+        Games Get(int Id);
     }
     public class GamesService: IGamesService
     {
@@ -23,12 +23,28 @@ namespace Service
         {
             _tiendaDbContext = tiendaDbContext;
         }
-        public IEnumerable<Games> GetAll(Games model)
+        public IEnumerable<Games> GetAll()
         {
             var result = new List<Games>();
             try
             {
                 result = _tiendaDbContext.games.ToList();
+
+            }
+            catch (System.Exception)
+            {
+
+
+            }
+            return result;
+
+        }
+        public Games Get(int Id)
+        {
+            var result = new Games();
+            try
+            {
+                result = _tiendaDbContext.games.Single(x => x.Id == Id);
 
             }
             catch (System.Exception)

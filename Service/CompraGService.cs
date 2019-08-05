@@ -7,10 +7,11 @@ namespace Service
 {
     public interface ICompraGService
     {
-    IEnumerable<Compra_Game> GetAll(Compra_Game model);
+    IEnumerable<Compra_Game> GetAll();
     bool Add(Compra_Game modal);
     bool Update(Compra_Game model);
     bool Delete(int Id);
+    Compra_Game Get(int Id);
 
 }
 public class CompraGService : ICompraGService
@@ -22,7 +23,7 @@ public class CompraGService : ICompraGService
     {
         _tiendaDbContext = tiendaDbContext;
     }
-    public IEnumerable<Compra_Game> GetAll(Compra_Game model)
+    public IEnumerable<Compra_Game> GetAll()
     {
         var result = new List<Compra_Game>();
         try
@@ -38,7 +39,23 @@ public class CompraGService : ICompraGService
         return result;
 
     }
-    public bool Add(Compra_Game model)
+        public Compra_Game Get(int Id)
+        {
+            var result = new Compra_Game();
+            try
+            {
+                result = _tiendaDbContext.compra_Games.Single(x => x.Id == Id);
+
+            }
+            catch (System.Exception)
+            {
+
+
+            }
+            return result;
+
+        }
+        public bool Add(Compra_Game model)
     {
         try
         {

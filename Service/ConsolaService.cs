@@ -10,10 +10,11 @@ namespace Service
 
     public interface IConsolaService
     {
-        IEnumerable<Consola> GetAll(Consola model);
+        IEnumerable<Consola> GetAll();
         bool Add(Consola modal);
         bool Update(Consola model);
         bool Delete(int Id);
+        Consola Get(int Id);
 
     }
     public class ConsolaService : IConsolaService
@@ -25,12 +26,28 @@ namespace Service
         {
             _tiendaDbContext = tiendaDbContext;
         }
-        public IEnumerable<Consola> GetAll(Consola model)
+        public IEnumerable<Consola> GetAll()
         {
             var result = new List<Consola>();
             try
             {
                 result = _tiendaDbContext.consolas.ToList();
+
+            }
+            catch (System.Exception)
+            {
+
+
+            }
+            return result;
+
+        }
+        public Consola Get(int Id)
+        {
+            var result = new Consola();
+            try
+            {
+                result = _tiendaDbContext.consolas.Single(x => x.Id == Id);
 
             }
             catch (System.Exception)

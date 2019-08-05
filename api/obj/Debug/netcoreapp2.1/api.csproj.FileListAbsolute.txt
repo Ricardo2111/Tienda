@@ -17,3 +17,5 @@ C:\Users\Ricar\Source\Repos\Tienda\api\obj\Debug\netcoreapp2.1\api.RazorTargetAs
 C:\Users\Ricar\Source\Repos\Tienda\api\obj\Debug\netcoreapp2.1\api.csproj.CopyComplete
 C:\Users\Ricar\Source\Repos\Tienda\api\obj\Debug\netcoreapp2.1\api.dll
 C:\Users\Ricar\Source\Repos\Tienda\api\obj\Debug\netcoreapp2.1\api.pdb
+C:\Users\Ricar\source\repos\Tienda\api\bin\Debug\netcoreapp2.1\Service.dll
+C:\Users\Ricar\source\repos\Tienda\api\bin\Debug\netcoreapp2.1\Service.pdb

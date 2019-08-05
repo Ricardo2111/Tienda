@@ -7,10 +7,11 @@ namespace Service
 {
     public interface IAccesoriosService
     {
-        IEnumerable<Accesorios> GetAll(Accesorios model);
+         IEnumerable<Accesorios> GetAll();
         bool Add(Accesorios modal);
         bool Update(Accesorios model);
         bool Delete(int Id);
+        Accesorios Get(int Id);
 
     }
     public class AccesoriosService : IAccesoriosService
@@ -23,12 +24,28 @@ namespace Service
             _tiendaDbContext = tiendaDbContext;
 
         }
-        public IEnumerable<Accesorios> GetAll(Accesorios model)
+        public IEnumerable<Accesorios> GetAll()
         {
             var result = new List<Accesorios>();
             try
             {
                 result = _tiendaDbContext.accesorios.ToList();
+
+            }
+            catch (System.Exception)
+            {
+
+
+            }
+            return result;
+
+        }
+        public Accesorios Get(int Id)
+        {
+            var result = new Accesorios();
+            try
+            {
+                result = _tiendaDbContext.accesorios.Single(x => x.Id == Id);
 
             }
             catch (System.Exception)

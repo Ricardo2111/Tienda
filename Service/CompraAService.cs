@@ -7,10 +7,11 @@ namespace Service
 {
     public interface ICompraAService
     {
-        IEnumerable<Compra_Accesorio> GetAll(Compra_Accesorio model);
-        bool Add(Compra_Accesorio modal);
-        bool Update(Compra_Accesorio model);
-        bool Delete(int Id);
+         IEnumerable<Compra_Accesorio> GetAll();
+         bool Add(Compra_Accesorio modal);
+         bool Update(Compra_Accesorio model);
+         bool Delete(int Id);
+        Compra_Accesorio Get(int Id);
 
     }
     public class CompraAService: ICompraAService
@@ -22,12 +23,28 @@ namespace Service
         {
             _tiendaDbContext = tiendaDbContext;
         }
-        public IEnumerable<Compra_Accesorio> GetAll(Compra_Accesorio model)
+        public IEnumerable<Compra_Accesorio> GetAll()
         {
             var result = new List<Compra_Accesorio>();
             try
             {
                 result = _tiendaDbContext.compra_Accesorios.ToList();
+
+            }
+            catch (System.Exception)
+            {
+
+
+            }
+            return result;
+
+        }
+        public Compra_Accesorio Get(int Id)
+        {
+            var result = new Compra_Accesorio();
+            try
+            {
+                result = _tiendaDbContext.compra_Accesorios.Single(x => x.Id == Id);
 
             }
             catch (System.Exception)

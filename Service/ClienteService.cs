@@ -7,10 +7,12 @@ namespace Service
 {
     public interface IClienteService
     {
-        IEnumerable<Cliente> GetAll(Cliente model);
+        IEnumerable<Cliente> GetAll();
         bool Add(Cliente modal);
         bool Update(Cliente model);
         bool Delete(int Id);
+        Cliente Get(int Id);
+
 
     }
     public class ClienteService : IClienteService
@@ -22,7 +24,7 @@ namespace Service
             _tiendaDbContext = tiendaDbContext;
         }
 
-        public IEnumerable<Cliente> GetAll(Cliente model)
+        public IEnumerable<Cliente> GetAll()
         {
             var result = new List<Cliente>();
             try
@@ -34,6 +36,22 @@ namespace Service
             {
 
                 
+            }
+            return result;
+
+        }
+        public Cliente Get( int Id)
+        {
+            var result = new Cliente();
+            try
+            {
+                result = _tiendaDbContext.clientes.Single(x=> x.Id == Id);
+
+            }
+            catch (System.Exception)
+            {
+
+
             }
             return result;
 
