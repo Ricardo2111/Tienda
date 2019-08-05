@@ -4358,6 +4358,20 @@
         "runtime": {
           "bin/placeholder/Persistence.dll": {}
         }
+      },
+      "Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Model": "1.0.0",
+          "Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Service.dll": {}
+        }
       }
     }
   },
@@ -11823,6 +11837,11 @@
       "type": "project",
       "path": "../Persistence/Persistence.csproj",
       "msbuildProject": "../Persistence/Persistence.csproj"
+    },
+    "Service/1.0.0": {
+      "type": "project",
+      "path": "../Service/Service.csproj",
+      "msbuildProject": "../Service/Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11830,7 +11849,8 @@
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Persistence >= 1.0.0"
+      "Persistence >= 1.0.0",
+      "Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11840,11 +11860,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\Ricar\\source\\repos\\Tienda\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\api\\api.csproj",
+      "projectPath": "C:\\Users\\Ricar\\source\\repos\\Tienda\\api\\api.csproj",
       "packagesPath": "C:\\Users\\Ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\api\\obj\\",
+      "outputPath": "C:\\Users\\Ricar\\source\\repos\\Tienda\\api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11863,8 +11883,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Persistence\\Persistence.csproj"
+            "C:\\Users\\Ricar\\source\\repos\\Tienda\\Persistence\\Persistence.csproj": {
+              "projectPath": "C:\\Users\\Ricar\\source\\repos\\Tienda\\Persistence\\Persistence.csproj"
+            },
+            "C:\\Users\\Ricar\\source\\repos\\Tienda\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\Ricar\\source\\repos\\Tienda\\Service\\Service.csproj"
             }
           }
         }

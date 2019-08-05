@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Persistence;
+using Service;
 
 namespace api
 {
@@ -30,6 +31,7 @@ namespace api
             var connection = Configuration.GetConnectionString("Dev");
             services.AddDbContext<TiendaDbContext>(options => options.UseSqlServer(connection));
 
+            services.AddTransient<IClienteService, ClienteService>();
            
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
