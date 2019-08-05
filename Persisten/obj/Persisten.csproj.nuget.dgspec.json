@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ricar\\source\\repos\\Tienda\\Persisten\\Persisten.csproj": {}
+    "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Persisten\\Persisten.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ricar\\source\\repos\\Tienda\\Model\\Model.csproj": {
+    "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ricar\\source\\repos\\Tienda\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\Ricar\\source\\repos\\Tienda\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\Ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricar\\source\\repos\\Tienda\\Model\\obj\\",
+        "outputPath": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\Ricar\\source\\repos\\Tienda\\Persisten\\Persisten.csproj": {
+    "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Persisten\\Persisten.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ricar\\source\\repos\\Tienda\\Persisten\\Persisten.csproj",
+        "projectUniqueName": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Persisten\\Persisten.csproj",
         "projectName": "Persisten",
-        "projectPath": "C:\\Users\\Ricar\\source\\repos\\Tienda\\Persisten\\Persisten.csproj",
+        "projectPath": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Persisten\\Persisten.csproj",
         "packagesPath": "C:\\Users\\Ricar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ricar\\source\\repos\\Tienda\\Persisten\\obj\\",
+        "outputPath": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Persisten\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\Ricar\\source\\repos\\Tienda\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\Ricar\\source\\repos\\Tienda\\Model\\Model.csproj"
+              "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Ricar\\Source\\Repos\\Tienda\\Model\\Model.csproj"
               }
             }
           }

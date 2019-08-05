@@ -1,0 +1,9 @@
+C:\Users\Ricar\Source\Repos\Tienda\Service\bin\Debug\netcoreapp2.1\Service.deps.json
+C:\Users\Ricar\Source\Repos\Tienda\Service\bin\Debug\netcoreapp2.1\Service.dll
+C:\Users\Ricar\Source\Repos\Tienda\Service\bin\Debug\netcoreapp2.1\Service.pdb
+C:\Users\Ricar\Source\Repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.csprojAssemblyReference.cache
+C:\Users\Ricar\Source\Repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\Ricar\Source\Repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.AssemblyInfoInputs.cache
+C:\Users\Ricar\Source\Repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.AssemblyInfo.cs
+C:\Users\Ricar\Source\Repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.dll
+C:\Users\Ricar\Source\Repos\Tienda\Service\obj\Debug\netcoreapp2.1\Service.pdb
