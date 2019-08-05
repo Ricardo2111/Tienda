@@ -1,0 +1,7 @@
+C:\Users\Ricar\source\repos\Tienda\Persisten\bin\Debug\netcoreapp2.1\Persisten.deps.json
+C:\Users\Ricar\source\repos\Tienda\Persisten\bin\Debug\netcoreapp2.1\Persisten.dll
+C:\Users\Ricar\source\repos\Tienda\Persisten\obj\Debug\netcoreapp2.1\Persisten.csproj.CoreCompileInputs.cache
+C:\Users\Ricar\source\repos\Tienda\Persisten\obj\Debug\netcoreapp2.1\Persisten.AssemblyInfoInputs.cache
+C:\Users\Ricar\source\repos\Tienda\Persisten\obj\Debug\netcoreapp2.1\Persisten.AssemblyInfo.cs
+C:\Users\Ricar\source\repos\Tienda\Persisten\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\Ricar\source\repos\Tienda\Persisten\obj\Debug\netcoreapp2.1\Persisten.csprojAssemblyReference.cache
