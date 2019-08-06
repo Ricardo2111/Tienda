@@ -32,7 +32,13 @@ namespace api
             services.AddDbContext<TiendaDbContext>(options => options.UseSqlServer(connection));
 
             services.AddTransient<IClienteService, ClienteService>();
-           
+            services.AddTransient<IGamesService, GamesService>();
+            services.AddTransient<IConsolaService, ConsolaService>();
+            services.AddTransient<IAccesoriosService, AccesoriosService>();
+            services.AddTransient<ICompraCService, CompraCService>();
+            services.AddTransient<ICompraAService, CompraAService>();
+            services.AddTransient<ICompraGService, CompraGService>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
