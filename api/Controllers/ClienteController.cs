@@ -8,6 +8,8 @@ using Service;
 
 namespace api.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class ClienteController : Controller
     {
         private readonly IClienteService _clienteService;
