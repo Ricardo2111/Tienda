@@ -51,7 +51,7 @@ namespace api.Controllers
         public IActionResult Put([FromBody] Compra_Accesorio model)
         {
             return Ok(
-                 _compraAService.Add(model)
+                 _compraAService.Update(model)
                  );
 
         }

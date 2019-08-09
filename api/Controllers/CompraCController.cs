@@ -51,7 +51,7 @@ namespace api.Controllers
         public IActionResult Put([FromBody] Compra_Consola model)
         {
             return Ok(
-                 _compraCService.Add(model)
+                 _compraCService.Update(model)
                  );
 
         }

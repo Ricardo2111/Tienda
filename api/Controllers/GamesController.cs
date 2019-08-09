@@ -51,7 +51,7 @@ namespace api.Controllers
         public IActionResult Put([FromBody] Games model)
         {
             return Ok(
-                 _gamesService.Add(model)
+                 _gamesService.Update(model)
                  );
 
         }

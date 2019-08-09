@@ -39,6 +39,17 @@ namespace api
             services.AddTransient<ICompraAService, CompraAService>();
             services.AddTransient<ICompraGService, CompraGService>();
 
+            services.AddCors(Options => 
+            {
+                Options.AddPolicy("AllowSpecificOrigin", builder =>
+                builder.AllowAnyHeader()
+                       .AllowAnyMethod()
+                       .AllowAnyOrigin()
+
+                );
+
+            });
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -54,6 +65,7 @@ namespace api
                 app.UseHsts();
             }
 
+            app.UseCors("AllowSpecificOrigin");
             app.UseHttpsRedirection();
             app.UseMvc();
         }

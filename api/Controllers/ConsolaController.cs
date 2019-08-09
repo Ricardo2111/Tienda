@@ -51,7 +51,7 @@ namespace api.Controllers
         public IActionResult Put([FromBody] Consola model)
         {
             return Ok(
-                 _consolaService.Add(model)
+                 _consolaService.Update(model)
                  );
 
         }

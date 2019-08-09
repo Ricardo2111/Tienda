@@ -2,13 +2,14 @@
 using Persistence;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Service
 {
     public interface IAccesoriosService
     {
-         IEnumerable<Accesorios> GetAll();
-        bool Add(Accesorios modal);
+        IEnumerable<Accesorios> GetAll();
+        bool  Add(Accesorios modal);
         bool Update(Accesorios model);
         bool Delete(int Id);
         Accesorios Get(int Id);
@@ -18,8 +19,7 @@ namespace Service
     {
         private readonly TiendaDbContext _tiendaDbContext;
         public AccesoriosService(
-            TiendaDbContext tiendaDbContext
-            )
+            TiendaDbContext tiendaDbContext)
         {
             _tiendaDbContext = tiendaDbContext;
 

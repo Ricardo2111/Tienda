@@ -51,7 +51,7 @@ namespace api.Controllers
         public IActionResult Put([FromBody] Accesorios model)
         {
             return Ok(
-                 _accesoriosService.Add(model)
+                 _accesoriosService.Update(model)
                  );
 
         }

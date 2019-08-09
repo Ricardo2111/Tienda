@@ -51,7 +51,7 @@ namespace api.Controllers
         public IActionResult Put([FromBody] Cliente model)
         {
             return Ok(
-                 _clienteService.Add(model)
+                 _clienteService.Update(model)
                  );
 
         }
