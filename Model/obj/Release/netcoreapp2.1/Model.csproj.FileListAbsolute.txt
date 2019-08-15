@@ -1,0 +1,9 @@
+C:\Users\Ricar\source\repos\Tienda\Model\bin\Release\netcoreapp2.1\Model.deps.json
+C:\Users\Ricar\source\repos\Tienda\Model\bin\Release\netcoreapp2.1\Model.dll
+C:\Users\Ricar\source\repos\Tienda\Model\bin\Release\netcoreapp2.1\Model.pdb
+C:\Users\Ricar\source\repos\Tienda\Model\obj\Release\netcoreapp2.1\Model.csprojAssemblyReference.cache
+C:\Users\Ricar\source\repos\Tienda\Model\obj\Release\netcoreapp2.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\Ricar\source\repos\Tienda\Model\obj\Release\netcoreapp2.1\Model.AssemblyInfoInputs.cache
+C:\Users\Ricar\source\repos\Tienda\Model\obj\Release\netcoreapp2.1\Model.AssemblyInfo.cs
+C:\Users\Ricar\source\repos\Tienda\Model\obj\Release\netcoreapp2.1\Model.dll
+C:\Users\Ricar\source\repos\Tienda\Model\obj\Release\netcoreapp2.1\Model.pdb

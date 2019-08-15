@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAf4VsHNu9qUeJgM7kuvZ/FgAAAAACAAAAAAAQZgAAAAEAACAAAADQ9rW0cc06LxSW/4hFQZsMTQ9Te9sppsskZZtxCDp1YgAAAAAOgAAAAAIAACAAAAB2TKhnB9HxtY76nBSBWyGuaRroDwE+zEROAtMXNgpzjoAAAABiilzw8HwJOrlo0ABKjREV2PpE4qmiOZEU39PJe80h3MmYMmS8oWyhyMTXpsIfmz2e7yVL4LQBF7wtc5qrYQOopPfuuWOp/JKgKYXzjDdqlW/NkH5HQWg6tDLkVdSh7/zgj6lJlQgHsZ5SuN7vA/oBvqn5YZrO4rAPySGNs3tgA0AAAACkLAqB7A4OFixXPjjUQqhl7QID8r8z74qJjKG77Qmy2095bqU1t9ocO3DFvqLBwcsld/4gc7uddcDJA3CaBasj</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Dev">
+      <Value>Server=tcp:apitienda.database.windows.net,1433%3bInitial Catalog=TiendaDB%3bPersist Security Info=False%3bUser ID=Ricarox%3bPassword=8297414480Ri%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

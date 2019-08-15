@@ -51,23 +51,25 @@ namespace api
             });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+    // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+    public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+    {
+        if (env.IsDevelopment())
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseHsts();
-            }
-
-            app.UseCors("AllowSpecificOrigin");
-            app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseDeveloperExceptionPage();
         }
+        else
+        {
+            app.UseHsts();
+        }
+
+        app.UseCors("AllowSpecificOrigin");
+        app.UseHttpsRedirection();
+        app.UseMvc();
+
+    }
     }
 }
